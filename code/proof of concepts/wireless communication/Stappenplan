@@ -1,0 +1,20 @@
+4. Stappenplan Demonstratie
+
+Dit plan wordt doorlopen tijdens de evaluatie:
+
+1. Setup
+Zet de robot aan. Controleer of de module stroom krijgt (LED knippert/brandt).
+
+2. Connectie
+Open de Serial Monitor (PC) of Bluetooth Terminal (Telefoon) of Putty via COM poort. Verbind met de module op 9600 baud.
+
+3. Test Zenden (TX)
+Stuur het commando TEST naar de robot.
+Verwachting: De interne LED op de robot knippert kort.
+
+4. Test Ontvangen (RX)
+Kijk naar de terminal.
+Verwachting: De robot stuurt tekst terug: Robot ontving: TEST.
+
+5. Conclusie
+Communicatie werkt in beide richtingen met correcte parameters.
